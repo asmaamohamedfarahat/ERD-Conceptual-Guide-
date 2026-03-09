@@ -1,3 +1,4 @@
+ Example (ERD-Conceptual-Guide)
 students(student_id PK, first_name, last_name, email UNIQUE, enrollment_year CHECK ≥ 2000)
 Instructors(instructor_id PK, first_name, last_name, email UNIQUE, hire_date≥ 2000)
 Courses(course_id PK, course_code UNIQUE, title, credits CHECK 1–6)
